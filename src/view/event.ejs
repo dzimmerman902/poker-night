@@ -1,0 +1,13 @@
+<div>Event</div>
+<form method="POST" hx-post="/api/event" hx-target="#message">
+  <div class="field">
+    <label class="label">Season</label>
+    <div class="control">
+      <input id="season" name="season" class="input" type="text">
+    </div>
+  </div>
+
+  <button type="submit">Create Event</button>
+</form>
+
+<div id="message"></div>
